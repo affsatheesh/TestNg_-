@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Mobiles" verbose="2">
+<test name = "Grouping_Example">
+<groups>
+<run>
+<include name="apple"></include>
+<include name="moto"></include>
+<exclude name="oppo"></exclude>
+</run>
+</groups>
+<classes>
+<class name="testNG.Grouping"></class>
+</classes>
+</test>
+</suite>

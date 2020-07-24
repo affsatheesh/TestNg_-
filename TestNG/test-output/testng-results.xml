@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mobiles" duration-ms="113" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+    <groups>
+      <group name="apple">
+        <method signature="Grouping.apple1()[pri:0, instance:testNG.Grouping@19f74d0]" name="apple1" class="testNG.Grouping"/>
+        <method signature="Grouping.apple2()[pri:0, instance:testNG.Grouping@19f74d0]" name="apple2" class="testNG.Grouping"/>
+        <method signature="Grouping.apple3()[pri:0, instance:testNG.Grouping@19f74d0]" name="apple3" class="testNG.Grouping"/>
+      </group> <!-- apple -->
+      <group name="moto">
+        <method signature="Grouping.moto1()[pri:0, instance:testNG.Grouping@19f74d0]" name="moto1" class="testNG.Grouping"/>
+        <method signature="Grouping.moto2()[pri:0, instance:testNG.Grouping@19f74d0]" name="moto2" class="testNG.Grouping"/>
+        <method signature="Grouping.moto3()[pri:0, instance:testNG.Grouping@19f74d0]" name="moto3" class="testNG.Grouping"/>
+      </group> <!-- moto -->
+    </groups>
+    <test name="Grouping_Example" duration-ms="113" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+      <class name="testNG.Grouping">
+        <test-method status="PASS" signature="apple1()[pri:0, instance:testNG.Grouping@19f74d0]" name="apple1" duration-ms="21" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple1 -->
+        <test-method status="PASS" signature="apple2()[pri:0, instance:testNG.Grouping@19f74d0]" name="apple2" duration-ms="6" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple2 -->
+        <test-method status="PASS" signature="apple3()[pri:0, instance:testNG.Grouping@19f74d0]" name="apple3" duration-ms="4" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple3 -->
+        <test-method status="PASS" signature="moto1()[pri:0, instance:testNG.Grouping@19f74d0]" name="moto1" duration-ms="5" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto1 -->
+        <test-method status="PASS" signature="moto2()[pri:0, instance:testNG.Grouping@19f74d0]" name="moto2" duration-ms="2" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto2 -->
+        <test-method status="PASS" signature="moto3()[pri:0, instance:testNG.Grouping@19f74d0]" name="moto3" duration-ms="4" started-at="2020-07-22T19:04:25Z" finished-at="2020-07-22T19:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto3 -->
+      </class> <!-- testNG.Grouping -->
+    </test> <!-- Grouping_Example -->
+  </suite> <!-- Mobiles -->
+</testng-results>
